@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(font/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Risque';
+    src: url(font/Risque-Regular.ttf);
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url(font/GraphikRegular.otf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@media (max-width: 850px) {
+    
+      .fdsdf{
+        padding: 8px 30px !important;
+      }
+      
+      .topnav h1{
+        background-color: black;
+        width: 100%;
+        height: 53px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 8px;
+        color: #FAFAFA;
+    
+    }
+    .span1{
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 8px;
+      line-height: 21px;
+      text-decoration-line: underline;
+      color: #FAFAFA;
+      }
+      .Trans{
+        font-family: 'Risque';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #1341EC;
+}
+.span2 {
+        font-family: 'Rubik';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1C1C1C;
+}
+.h7{
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.h71{
+    color: var(--neutral-80, #5D5F61);
+    font-size: 18px;
+    font-family: Rubik;
+    line-height: 27px;
+    margin-top: 39px;
+}
+.btn1{
+    display: flex;
+width: 183px;
+padding: 12px 36px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: var(--primary, #1341EC);
+border: none;
+margin-top: 39px;
+color: #FFF;
+font-size: 16px;
+font-family: Rubik;
+font-weight: 500;
+line-height: 150%;
+transition: 0.4s;
+}
+.relative{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ .people{
+    height: 233.371px;
+    width: 100%;
+    margin-top: 32px;
+ }   
+ .servicesdiv h1 {
+    background-image: url(img/Services.png);
+    background-repeat: no-repeat;
+    color: var(--grey-1, #000);
+    font-size: 48px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+}
+
+
+
+}
+
+     
+
+
+
+
+
+@media (min-width: 850px) {
+.Trans{
+        font-family: 'Risque';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        text-transform: capitalize;
+        color: #1341EC;
+}
+.servicesdiv h1 {
+    background-image: url(img/Services.png);
+    background-repeat: no-repeat;
+    color: var(--grey-1, #000);
+    font-size: 48px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+    width: 408px;
+    height: 110px;
+}
+.span2 {
+        font-family: 'Rubik';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #1C1C1C;
+}
+.navigation a{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1C1C1C;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn button{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 100%;
+height: 45px;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+background-color: #1341EC;
+border-radius: 6px;
+border: none;
+}
+.h6{
+    color: var(--neutral-100, #262626);
+font-size: 64px;
+position: absolute;
+font-family: Rubik;
+font-weight: 600;
+line-height: 96px;
+}
+.h7{
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.h71{
+    color: var(--neutral-80, #5D5F61);
+    font-size: 18px;
+    font-family: Rubik;
+    line-height: 27px;
+    margin-top: 39px;
+}
+.btn1{
+    display: flex;
+width: 183px;
+padding: 12px 36px;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+background: var(--primary, #1341EC);
+border: none;
+margin-top: 39px;
+color: #FFF;
+font-size: 16px;
+font-family: Rubik;
+font-weight: 500;
+line-height: 150%;
+transition: 0.4s;
+}
+
+
+}
+.btn1:hover{
+    background: var(--primary, #0d2fab);
+}
+.topnav h1{
+    background-color: black;
+    width: 100%;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #FAFAFA;
+
+}
+
+.span1{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+text-decoration-line: underline;
+
+/* Text */
+
+color: #FAFAFA;
+}
+.image1{
+    background-image: url(img/Rectangle\ 960.png);
+}
+.image2{
+    background-image: url(img/Rectangle\ 961.png);
+}
+.image3{
+    background-image: url(img/Rectangle\ 962.png);
+}
+.image4{
+    background-image: url(img/Rectangle\ 963.png);
+}
+.image5{
+    background-image: url(img/Rectangle\ 964.png);
+}
+.image6{
+    background-image: url(img/Rectangle\ 965.png);
+}
+.image7{
+    background-image: url(img/Rectangle\ 966.png);
+}
+.imagetxt{
+    height: 427px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    flex-shrink:0;
+    color: #FFF;
+    display: flex;
+    font-size: 32px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    line-height: 48px;
+    align-items: end;
+}
