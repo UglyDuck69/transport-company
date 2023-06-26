@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 body{
     padding: 0;
@@ -30,11 +29,63 @@ body{
 }
 
 @media (max-width: 992px) {
-    
+    .icons1 svg {
+        cursor: pointer;
+        color: white;
+        gap: 23px;
+    }
+    .adasa{
+        padding: 60px 40px;
+    }
       .fdsdf{
         padding: 8px 30px !important;
       }
-      
+      .map{
+        width: 663.297px;
+    }
+    .arrow1{
+        border-radius: 17.129px;
+    background: #FFFAFA;
+    box-shadow: 3.4257137775421143px 1.7128568887710571px 5.994999408721924px 0.8564284443855286px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 28px 13px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    }
+    .arrow11{
+        border-radius: 17.129px;
+    background: #FFFAFA;
+    box-shadow: 1.5799180269241333px 0.7899590134620667px 2.7648568153381348px 0.3949795067310333px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 28px 13px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    }
+    .textebi h2{
+        color: #FFF;
+        font-size: 7.409px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-variant: small-caps;
+        letter-spacing: 1.185px;
+    }
+    .textebi h3{
+        color: #FFF;
+        font-size: 29.634px;
+        font-family: 'Rubik';
+        font-weight: 600;
+        line-height: 37.043px;
+    }
+    .textebi h4{
+        color: #FFF;
+        font-size: 11.113px;
+        font-family: 'Rubik';
+        line-height: 16.669px;
+    }
       .topnav h1{
         background-color: black;
         width: 100%;
@@ -57,6 +108,9 @@ body{
       line-height: 21px;
       text-decoration-line: underline;
       color: #FAFAFA;
+      }
+      .adadas{
+        display: flex;
       }
       .Trans{
         font-family: 'Risque';
@@ -91,6 +145,11 @@ body{
     font-family: Rubik;
     line-height: 27px;
     margin-top: 39px;
+}
+.asodfd{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
 }
 .btn1{
     display: flex;
@@ -176,8 +235,39 @@ transition: 0.4s;
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-
+.rowinput{
+    border-radius: 5.136px;
+    background: #FFF;
+    box-shadow: 11.29843807220459px 11.812003135681152px 20.542613983154297px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+padding: 11.113px 113.598px 11.113px 18.521px;
+align-items: flex-start;
+gap: 6.174px;
+color: #C0C0C0;
+font-size: 8.217px;
+font-family: 'Poppins';
+border: none;
+height: 34px;
+}
+.subbtn{
+    border-radius: 0px 5.136px 5.136px 0px;
+    background: var(--primary, #1341EC);
+    display: flex;
+padding: 11.113px 16.052px;
+justify-content: center;
+align-items: center;
+gap: 6.174px;
+color: #FFF;
+font-size: 8.217px;
+font-family: 'Poppins';
+border: none;
+height: 34px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+}
 }
 
      
@@ -187,16 +277,68 @@ transition: 0.4s;
 
 
 @media (min-width: 992px) {
-
+    .icons1 svg {
+        cursor: pointer;
+        color: white;
+        gap: 23px;
+        margin-left: 23px;
+    }
+    .footer{
+        width: 100%;
+        background-color: black;
+        padding: 24px 96px;
+        justify-content: space-between;
+    }
+    .rowinput{
+        font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    border-radius: 8.318px;
+    border: none;
+    background: #FFF;
+    box-shadow: 18.300535202026367px 19.13237762451172px 33.27370071411133px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    padding: 18px 184px 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    }
+    .adasa{
+        padding: 172px 96px;
+    }
+    .adsadd{
+        padding: 65px 96px;
+    }
+    .knkas{
+        color: #383838;
+        font-size: 14px;
+        font-family: 'Rubik';
+        line-height: 24px;
+    }
+    .subbtn{
+        border-radius: 0px 8.318px 8.318px 0px;
+        background: var(--primary, #1341EC);
+        display: flex;
+        padding: 18px 26px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        color: #FFF;
+        font-size: 13.309px;
+        font-family: 'Poppins';
+        height: 60px;
+    }
     .portrait{
         border-radius: 17.129px;
         background: #FFF;
         box-shadow: 0.8564284443855286px 2.5692856311798096px 4.282142162322998px 5.138571262359619px rgba(0, 0, 0, 0.25);
         display: flex;
         padding: 31px;
-        flex-direction: column;
-        align-items: flex-start;
-        height: 490px;
+        align-items: center;
+        height: fit-content;
+        
     }
 .Trans{
         font-family: 'Risque';
@@ -207,6 +349,32 @@ transition: 0.4s;
         text-transform: capitalize;
         color: #1341EC;
 }
+.textebi h2{
+    color: #FFF;
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-variant: small-caps;
+    letter-spacing: 1.92px;
+}
+.textebi h3{
+    color: #FFF;
+font-size: 48px;
+font-family: 'Rubik';
+font-weight: 600;
+line-height: 60px;
+}
+.asodfd{
+    border: 0.66px solid #10254D;
+    border-radius: 16px;
+    padding: 125px 64px;
+}
+.textebi h4{
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Rubik';
+    line-height: 27px;
+}
 .valuable h1{
     font-family: 'Rubik';
 font-size: 48px;
@@ -214,9 +382,29 @@ font-weight: 700;
 line-height: 81px;
 letter-spacing: 0px;
 text-align: left;
-background-image: url(img/Testimonials.png);
-background-repeat: no-repeat;
 
+}
+.h3{
+    font-family: 'Rubik';
+font-size: 48px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+}
+.h4{
+    font-family: 'Rubik';
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+.testimo{
+    text-shadow: 0px -40px 8px #E5E5E5;
+    color: transparent;
 }
 .Testimonials{
     color: var(--primary, #1341EC);
@@ -226,6 +414,9 @@ font-weight: 600;
 line-height: 36px;
 text-align: center;
 margin-top: 110px;
+}
+.map{
+    width: 663.297px;
 }
 .servicesdiv h1 {
     background-image: url(img/Services.png);
@@ -286,7 +477,7 @@ font-weight: 600;
 line-height: 96px;
 }
 .h7{
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-size: 64px;
     font-weight: 600;
     line-height: 96px;
@@ -294,6 +485,7 @@ line-height: 96px;
     text-align: left;
     
 }
+
 .h71{
     color: var(--neutral-80, #5D5F61);
     font-size: 18px;
@@ -318,7 +510,17 @@ font-weight: 500;
 line-height: 150%;
 transition: 0.4s;
 }
-
+.arrow{
+    border-radius: 17.129px;
+background: #FFFAFA;
+box-shadow: 3.4257137775421143px 1.7128568887710571px 5.994999408721924px 0.8564284443855286px rgba(0, 0, 0, 0.25);
+display: flex;
+padding: 28px 13px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border: none;
+}
 
 }
 .btn1:hover{
@@ -367,4 +569,163 @@ color: #FAFAFA;
     font-weight: 500;
     line-height: 48px;
     align-items: end;
+}
+.h2{
+    color: white!important;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-variant: small-caps;
+    letter-spacing: 1.92px;
+}
+.h3{
+    font-family: 'Rubik';
+font-size: 48px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF !important;
+margin-top: 16px;
+display: flex;
+width: 498px;
+flex-direction: column;
+}
+.h4{
+    font-family: 'Rubik';
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: white !important;
+display: flex;
+width: 510px;
+flex-direction: column;
+}
+.search{
+    display: flex;
+padding: 18px 184px 18px 30px;
+align-items: flex-start;
+gap: 10px;
+display: flex;
+padding: 18px 30px 18px 30px;
+align-items: flex-start;
+gap: 10px;
+color: #C0C0C0;
+font-size: 13.309px;
+font-family: 'Poppins';
+}
+.searchbtn{
+    display: flex;
+padding: 18px 26px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 0px 8.318px 8.318px 0px;
+background: var(--primary, #1341EC);
+color: #FFF;
+font-size: 13.309px;
+font-family: 'Poppins';
+border: none;
+width: fit-content;
+}
+.Marry{
+font-family: 'Rubik';
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0px;
+text-align: center;
+color: #080D20;
+width: 100%;
+}
+.ceo{
+    font-family: 'Rubik';
+font-size: 18px;
+font-weight: 300;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.dasdss{
+    font-family: 'Rubik';
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.divname{
+    border-bottom: 1px solid #F2F2F2;
+    width: 284.577px;
+    color: var(--gray-6, #F2F2F2);
+font-size: 18px;
+font-family: 'Rubik';
+line-height: 27px;
+}
+.divname1{
+    border-bottom: 1px solid #F2F2F2;
+    width: 93%;
+    color: var(--gray-6, #F2F2F2);
+font-size: 18px;
+font-family: 'Rubik';
+line-height: 27px;
+}
+.fsdfd{
+    color: var(--white, #FFF);
+font-size: 54px;
+font-family: 'Rubik';
+font-weight: 700;
+line-height: 81px;
+color: #FFF;
+}
+.sdadsas{
+    margin-top: 18px;
+    color: var(--white, #FFF);
+font-size: 24px;
+font-family: 'Rubik';
+line-height: 36px;
+color: white;
+}
+.icons{
+    color: #383838;
+    cursor: pointer;
+}
+.footerdiv1 h2{
+    color: #383838;
+    font-size: 18px;
+    font-family: 'Rubik';
+    font-weight: 600;
+}
+.footerdiv2 h2 h4{
+    color: #383838;
+    font-size: 18px;
+    font-family: 'Rubik';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.footerdiv1 h3{
+    color: #2C2C2C;
+    font-size: 14px;
+    font-family: 'Rubik';
+}
+.number1 h4 {
+    color: #0E0F1D;
+    font-size: 14px;
+    font-family: Rubik;
+    line-height: 24px;
+}
+.mapdiv{
+    color: #383838;
+font-size: 18px;
+font-family: 'Rubik';
+font-weight: 600;
+}
+.footer h1{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Rubik';
 }
