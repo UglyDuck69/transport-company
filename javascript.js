@@ -9,13 +9,10 @@ menuBtn.addEventListener("click", () => {
 
 var myDiv = document.getElementById('arrow-left');
 function gadartva() {
-  window.alert("Div Clicked");
+  window.alert("Nice");
 };
 
-var image = document.getElementById('myImage');
-    
-    // Add a click event listener to the image
-    image.addEventListener('click', function() {
-      // Change the window location to the desired URL
-      window.location.href = 'https://www.facebook.com';
-    });
+  const icon = document.getElementById('myIcon');
+  icon.addEventListener('click', () => {
+    window.location.href = 'https://example.com';
+  });
